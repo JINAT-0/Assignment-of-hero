@@ -277,14 +277,51 @@ header{
     color: #627382;
     font-size:16px ;
     padding-top:16px ;
-    
-    
+      
 }
-
 
 .info .fault{
    padding-bottom: 16px;
 }
+.last-container{
+    margin-top: 73px;
+    background-color:#001931 ;
+    padding: 73px 73px 20px 73px ;
+
+}
+.last-container .social-media .media .icon{
+    background-color:white ;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.last-container .social-media .media{
+    list-style: none;
+    display: flex;
+    gap: 26px;
+}
+.last-container .social-media .last h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding-bottom:16px ;
+ 
+}
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 16px;
+}
+.last-container .copy {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #FAFAFA;
+    font-size: 16px ;
+    padding-bottom: 16px;
+    padding-top:16px ;
+}
+
 
 
 
