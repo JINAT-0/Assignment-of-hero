@@ -108,10 +108,11 @@ header{
     text-align: center;
     line-height: 24px;
     font-weight: 400;
-    width: 1360px;
+    max-width: 760px;
     height: 60px;
     display: flex;
     justify-content: center;
+    margin:0 auto
 
 }
 .btn-aside{
@@ -143,5 +144,78 @@ header{
     justify-content: center;
     gap: 16px;
 }
+.mid-container{
+    background-color:#ffffff;
+}
+.mid-container h3{
+    font-size: 48px;
+    font-weight: 700;
+    color:#001931 ;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+.mid-container p{
+    font-size: 16px;
+    color: #627382;
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+    padding-bottom: 40px;
+}
+.notes-container{
+    display: flex;
+    justify-content:space-around;
+  
+    
+   
+  } 
+.list-container{
+    width: 260px;
+
+    height: 240px ;
+   
+    border: 1px solid whitesmoke;
+    gap: 8px;
+    padding-top: 40px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    border-radius: 8px;
+    
+}
+.list-container h4{
+    color:#001931 ;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 10px; 
+    text-transform: capitalize;
+   text-align: center;
+
+}
+.list-container p{
+    width: 100%;
+    font-size: 16px;
+    color:#627382 ;
+    padding-top: 16px;
+    text-align: center;
+    
+}
+
+.list-container img{
+    background-color:#F95555 ;
+    border-radius: 50%;
+    padding: 13px 14px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    
+}
+
 
 
