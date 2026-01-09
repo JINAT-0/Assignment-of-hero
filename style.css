@@ -165,15 +165,17 @@ header{
 }
 .notes-container{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
+    
+    
   
     
    
   } 
 .list-container{
-    width: 260px;
+    width: 220px;
 
-    height: 240px ;
+    height: 260px ;
    
     border: 1px solid whitesmoke;
     gap: 8px;
@@ -199,7 +201,7 @@ header{
     width: 100%;
     font-size: 16px;
     color:#627382 ;
-    padding-top: 16px;
+    padding-top: 8px;
     text-align: center;
     
 }
@@ -216,6 +218,75 @@ header{
     justify-content: center;
     
 }
+#design-container{
+    display: flex;
+    justify-content:space-between;
+    padding: 73px;
+    gap:60px ;
+
+}
+#design-container .right-container{
+    list-style: none;
+    display: flex;
+    font-size:16px ;
+    color: #001931;
+    gap: 16px;
+    padding-top:16px ;
+    
+}
+#design-container h5{
+    color:#469165 ;
+    font-size: 16px;
+    padding-top:102px ;
+}
+#design-container h2{
+    color: #001931;
+    font-size: 42px;
+    padding-top: 16px;
+
+}
+#design-container .paragraph {
+    color: #627382;
+    font-size:16px ;
+    gap: 16px;
+    padding-top: 20px;
+    
+
+}
+#design-container .list{
+    padding-top:30px ;
+}
+.info{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F6F2;
+    border: #F7F6F2 ;
+    padding: 80px 40px 80px 40px;
+    margin-left: 73px;
+    margin-right: 73px;
+}
+.info h2{
+    font-size: 40px;
+    padding-top:80px ;
+    color:#001931 ;
+
+}
+.info p{
+    color: #627382;
+    font-size:16px ;
+    padding-top:16px ;
+    
+    
+}
+
+
+.info .fault{
+   padding-bottom: 16px;
+}
+
+
 
 
 
